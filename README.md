@@ -13,7 +13,7 @@ MicToggle is a script that enables users to toggle the mute state of their micro
    - Ensure NirCmd (`nircmd.exe`) is located in the same directory as the script.
 2. **Run the Script**: Double-click the `MicToggle.ahk` file to run the script. The script will start running in the background.
 3. **Toggle Microphone Mute**: Press the predefined hotkey combination (`Left Windows + Shift + M`) to toggle the microphone mute state.
-4. **Audio Feedback**: The script will audibly announce the current microphone state (muted or unmuted) using Text-to-Speech.
+4. **Audio Feedback**: The script will audibly announce the current microphone state.
 
 ## Notes:
 - Customization: By default, the script uses the hotkey combination `Left Windows + Shift + M` to toggle the microphone mute state. Users interested in customizing the hotkey combination can manually modify the script (`MicToggle.ahk`) to change the hotkey definition.
