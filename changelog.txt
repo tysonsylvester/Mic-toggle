@@ -1,0 +1,26 @@
+# Change Log for Microphone Toggle Script
+
+## Version 1.0 - Initial Release
+- **Initial Script**: 
+  - Created a basic AutoHotkey (AHK) script to toggle the microphone mute status using `nircmd.exe`.
+  - Implemented TTS announcements using PowerShell to indicate the microphone status ("Microphone is muted" or "Microphone is unmuted").
+
+## Version 1.1 - String Concatenation Fix
+- **Fixed String Concatenation**:
+  - Corrected the string concatenation in the PowerShell command to ensure proper TTS announcements.
+  - Ensured the status message was constructed and passed correctly to PowerShell.
+
+## Version 1.2 - Simplified Status Messages
+- **Simplified Messages**:
+  - Changed TTS announcements to "Microphone on" and "Microphone off" for clarity and simplicity.
+
+## Version 1.3 - Added Exit Functionality
+- **Exit Hotkey**:
+  - Added a hotkey (`Win + Shift + Q`) to exit the script.
+  - Implemented a TTS announcement ("Exiting program") before the script terminates.
+
+## Final Version - Informative and Concise Messages
+- **Startup and Exit Messages**:
+  - Changed the startup TTS message to "Program started."
+  - Ensured the exit TTS message was concise and informative ("Exiting program").
+
